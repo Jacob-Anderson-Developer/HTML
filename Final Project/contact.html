@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Contact Page</title>
+      <!--
+         Clint Webb for Senate Contact Page
+         Filename: Contact.html
+      
+         Author:   Jacob Anderson
+         Date:     4-18-2021
+         HTML5 and CSS3
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link rel="stylesheet" href="css.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+         <header>
+            <h1>Contact Us</h1>
+            <div>
+               <a href="contact"><img src="images/clint.jpg" width="224" height="105" alt=""></a>
+               <!-- The above Image was obtained and adapted from
+                  https://www.reddit.com/r/WKUK/comments/ingzlp/we_need_him_now_more_than_ever_vote_clint_webb/ -->
+            </div>
+         </header>
+         <nav class="sitenavigation">
+            <ul>
+               <li><a href="cwhome.html">Home</a></li>
+               <li><a href="family.html">Family</a></li>
+               <li><a href="background.html">Background</a></li>
+               <li><a href="qualifications.html">Qualifications</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+         </nav>
+         <article id="contentstart">
+            <h2>Clint Wants to Hear From You!</h2>
+            <form action = "results.html">
+                <fieldset class = "contactinfo">
+                <legend>Contact Information</legend>
+                <label for = "fname">
+                    First Name
+                <input type = "text" name = "fnameinput" id = "fname" placeholder = "First Name">
+                </label>
+                <label for = "lname">
+                    Last Name
+                <input type = "text" name = "lnameinput" id = "lname" placeholder = "Last Name">
+                </label>
+                <label for = "email">
+                    Email
+                <input type = "email" name = "emailinput" id = "email" placeholder = "address@example.com">
+                </label>
+                <label for = "phone">
+                    Phone
+                <input type = "tel" name = "phoneinput" id = "phone">
+                </label>
+                </fieldset>
+                <fieldset class = "additionalinfo">
+                <legend>Submit Your Question or Feedback</legend>
+                <label for = "adinfo">
+                   Questions Comments or Concerns
+                   <textarea name = "additional info" rows = "7" cols = "55" id = "adinfo"></textarea>
+                </label>
+                </fieldset>
+                <fieldset class = "submitbutton">
+                   <input type = "submit" id = "submit" value = "Submit">
+                </fieldset>
+            </form>
+         </article>
+         <footer>
+            <p>Offices of Clint Webb</p>
+            <p>7718 Capitol Street</p>
+            <p>Lansing, Michigan 48917</p>
+            <p>(555) 555-5555</p>
+         </footer>
+      </div>
+   </body>
+</html>
